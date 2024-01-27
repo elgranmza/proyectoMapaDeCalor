@@ -19,8 +19,8 @@ body {
 #floating-panel {
     position: absolute;
     top: 10px;
-    left: 25%;
-    z-index: 5;
+    left: 75%;
+    z-index: 1;
     background-color: #fff;
     padding: 5px;
     border: 1px solid #999;
@@ -33,9 +33,22 @@ body {
 #floating-panel {
     background-color: #fff;
     border: 1px solid #999;
-    left: 25%;
+    left: 70%;
     padding: 5px;
     position: absolute;
     top: 10px;
     z-index: 5;
+}
+
+#creador {
+    font-weight: bold;
+    background-color: #6d6d6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#creador:hover {
+    background-color:#6d6d6d;
 }
